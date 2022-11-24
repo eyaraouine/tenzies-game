@@ -1,0 +1,104 @@
+body{
+  background: #96e8ea;
+}
+.tenzies--title{
+  font-family:"Press Start 2P";
+  color: #931983;
+  padding-top: 20px;
+  padding-left: 500px;
+  font-size: 50px;
+}
+.intro{
+  font-family: "Oxygen";
+  color: #91274a;
+  font-size: 20px;
+  padding-left: 250px;
+}
+.dice--container{
+  display:grid;
+  grid-template:auto auto / repeat(5,1fr);
+  gap: 10px;
+  padding-left: 100px;
+  padding-top: 30px;
+  position:relative;
+}
+.die--face{
+  height: 100px;
+  width:100px ;
+  border-radius: 15px;
+
+box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+  cursor: pointer;
+  background-color: blanchedalmond;
+  align-items:center ;
+  display:flex;
+  justify-content: center;
+}
+.die-num{
+  font-size: 3rem;
+}
+.button{
+  font-family: "Hind";
+  border: none;
+  width: 150px;
+  height: 60px;
+  border-radius: 8px;
+  position: absolute;
+  bottom:65px;
+ margin-left: 600px;
+  font-size:30px ;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.6);
+  background-color: #91274a;
+}
+.button:focus{
+  outline: none;
+}
+.button:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0,0,0,0.7);
+}
+.congrats{
+  font-family: "Anton";
+  font-size:60px;
+  color: #08cad0;
+  padding-left:230px;padding-top:60px;}
+.container-winner{
+  background-color: #d1e713;
+  height: 450px;
+  max-width: 900px;
+  border-radius: 8px;
+padding-left: 60px;
+  margin-left: 200px;
+margin-top:100px;
+}
+.button-restart{
+  font-family: Hind;
+  margin-left: 350px;
+  border: none;
+  width: 150px;
+  height: 60px;
+  border-radius: 8px;
+margin-top:50px;
+  font-size:30px ;
+  color: #fff200;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.6);
+  background-color: #8016d7;
+}
+.button-restart:focus{
+  outline: none;
+}
+.button-restart:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0,0,0,0.7);
+}
+.confetti{
+  padding-left: 210px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+h3{
+  font-family: Overpass;
+  color: #8016d7;
+}
+.score-board{
+padding-left: 320px;
+}
